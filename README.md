@@ -1,2 +1,2 @@
 # portfolio
-This is my portfolio website made HTML / (S)CSS / JS 
+This is my portfolio website made HTML / (S)CSS / 
