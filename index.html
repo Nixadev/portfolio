@@ -8,15 +8,33 @@
     <title>Portfolio</title>
 </head>
 <body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#">Accueil</a></li>
+            <li><a href="projects.html">Mes projects</a></li>
+            <li><a href="#contact">Me contacter</a></li>
+        </ul>
+    </nav>
     <header>
         <h1>Bienvenue sur le Portfolio de <span id="id">@mariuspro_</span></h1>
-        <a id="down" href="#first">V</a>
+        <a class="down" href="#first">V</a>
     </header>
     <section id="first">
         <h2>Qui suis-je ?</h2>
         <p>Bonjour je me présente, je suis un amateur de web design, de dev en Python, Html, Css, Java... Je vais donc vous présenter mes derniers designs ainsi que les plus anciens. Je me considere comme un "touche à tout".</p>
     </section>
-    <section class="diagonal">
+    <section id="lasts_projects">
+        <h2>Mes derniers projets</h2>
+        <ul>
+            <li><a href="projects.html#one">Logo representant un vieil appareil photo + motion design</a></li>
+            <li><a href="projects.html#two">Logo "Nixadev" (3 versions)</a></li>
+            <li><a>Mon portfolio</a></li>
+            <li id="last">
+                <a href="projects.html">Acceder à tous mes projets -></a>
+            </li>
+        </ul>
+    </section>
+    <section class="diagonal" id="contact">
         <h2>Me contacter</h2>
         <ul>
             <li>
@@ -25,6 +43,8 @@
             <li>
                 E-mail : <a href="mailto:mariusmathieu.pro@gmail.com">mariusmathieu.pro@gmail.com</a>
             </li>
+            
         </ul>
+        </section>
 </body>
 </html>
